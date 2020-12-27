@@ -1,21 +1,21 @@
+import java.util.Scanner;
 
 public class Exercicio2 {
 
 	public static void main(String[] args) {
-		int a, b, c, d;
-		int z;
 		
-		a = 10;
-		b = 30;
-		System.out.println("SOMA = " + a + b);
+		Scanner sc = new Scanner(System.in);
 		
-		z = - 30;
-		c = 10;
-		System.out.println("SOMA = " + z + c);
+		int A, B, soma;
 		
-		d = 0;
-		System.out.println("SOMA = " + d + d);
+		A = sc.nextInt();
+		B = sc.nextInt();
 		
+		soma = A + B;
+		
+		System.out.println("Soma = " + soma);
+		
+		sc.close();
 		
 	}
 }
